@@ -77,4 +77,6 @@ r1 = Rover.new(1, 2, "N", 5, 5)
 input = "LMLMLMLMM"
 input.each_char {|c| r1.read_instruction(c)}
 
-
+r2 = Rover.new(3, 3, "E", 5, 5)
+input = "MMRMMRMRRM"
+input.each_char {|c| r2.read_instruction(c)}
